@@ -1,0 +1,74 @@
+{
+  "plan": {
+    "name": "Plan Flexible {{MES}} Quincena {{1|2}}",
+    "description": "Plan flexible de 1400 kcal/dia, estacional y sin tofu/soja.",
+    "target_calories": 1400,
+    "diet_type": "Flexible",
+    "target_month": 1,
+    "target_fortnight": 1,
+    "tags": [
+      "1400kcal",
+      "Flexible",
+      "{{mes}}",
+      "quincena_{{1|2}}",
+      "estacional",
+      "sin_tofu",
+      "sin_soja"
+    ],
+    "instructions": "Elige 1 desayuno + 1 comida + 1 cena + 1 snack para mantener el computo diario cercano a 1400 kcal. Sin tofu ni soja. Prioriza alimentos de temporada y pesaje en crudo cuando aplique."
+  },
+  "recipes": [
+    {
+      "category": "breakfast",
+      "name": "{{Nombre desayuno 1}}",
+      "preparation": "Paso 1... Paso 2... Paso 3... Paso 4...",
+      "ingredients": [
+        { "name": "{{Ingrediente}}", "quantity": 0, "unit": "g", "section": "Despensa" }
+      ],
+      "calories": 345,
+      "protein": 20,
+      "carbs": 35,
+      "fat": 12,
+      "image_url": ""
+    },
+    {
+      "category": "lunch",
+      "name": "{{Nombre comida 1}}",
+      "preparation": "Paso 1... Paso 2... Paso 3... Paso 4...",
+      "ingredients": [
+        { "name": "{{Ingrediente}}", "quantity": 0, "unit": "g", "section": "Despensa" }
+      ],
+      "calories": 500,
+      "protein": 35,
+      "carbs": 50,
+      "fat": 15,
+      "image_url": ""
+    },
+    {
+      "category": "dinner",
+      "name": "{{Nombre cena 1}}",
+      "preparation": "Paso 1... Paso 2... Paso 3... Paso 4...",
+      "ingredients": [
+        { "name": "{{Ingrediente}}", "quantity": 0, "unit": "g", "section": "Despensa" }
+      ],
+      "calories": 410,
+      "protein": 30,
+      "carbs": 28,
+      "fat": 16,
+      "image_url": ""
+    },
+    {
+      "category": "snack",
+      "name": "{{Nombre snack 1}}",
+      "preparation": "Paso 1... Paso 2...",
+      "ingredients": [
+        { "name": "{{Ingrediente}}", "quantity": 0, "unit": "g", "section": "Despensa" }
+      ],
+      "calories": 145,
+      "protein": 10,
+      "carbs": 15,
+      "fat": 5,
+      "image_url": ""
+    }
+  ]
+}

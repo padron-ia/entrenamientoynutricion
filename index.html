@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Padron Trainer | Plan 90 Días</title>
+  <meta name="description"
+    content="Sistema de entrenamiento, nutrición estratégica y acompañamiento real para perder grasa y construir un físico que se mantenga." />
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="/manifest.json" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%2310b981%22/><text y=%22.9em%22 font-size=%2270%22 font-weight=%22black%22 fill=%22white%22 x=%2250%25%22 text-anchor=%22middle%22 font-family=%22sans-serif%22>PT</text></svg>" />
+
+  <!-- Apple PWA Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="Padron Trainer" />
+  <link rel="apple-touch-icon" href="/icons/icon-192x192.png" />
+
+  <!-- Theme color para la barra del navegador en Android -->
+  <meta name="theme-color" content="#060a13" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <style>
+    body {
+      background: #f0f2f5;
+      margin: 0;
+    }
+
+    #root {
+      min-height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <script>if (localStorage.getItem('pt-dark-mode') === 'true' || localStorage.getItem('ado-dark-mode') === 'true') document.documentElement.classList.add('dark')</script>
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js')
+          .then((reg) => {
+            // Comprobar actualizaciones periódicamente (cada hora)
+            setInterval(() => reg.update(), 60 * 60 * 1000);
+            // Si hay una nueva versión esperando, activarla
+            reg.addEventListener('updatefound', () => {
+              const newWorker = reg.installing;
+              if (newWorker) {
+                newWorker.addEventListener('statechange', () => {
+                  if (newWorker.state === 'activated' && navigator.serviceWorker.controller) {
+                    // Nueva versión activa — la próxima vez que abran verán la nueva
+                    console.log('[PWA] Nueva versión disponible');
+                  }
+                });
+              }
+            });
+          })
+          .catch((err) => console.warn('[PWA] SW registration failed:', err));
+      });
+    }
+  </script>
+</body>
+
+</html>

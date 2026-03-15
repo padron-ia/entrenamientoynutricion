@@ -1,0 +1,5 @@
+{
+  "name": "Padron Trainer CRM",
+  "description": "A specialized CRM for diabetes management coaching, featuring client tracking, contract expiration alerts, and role-based access control (Admin/Coach).",
+  "requestFramePermissions": []
+}

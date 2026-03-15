@@ -1,0 +1,37 @@
+{
+  "name": "padron-trainer-crm",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "clean": "rm -rf dist build_prod node_modules package-lock.json",
+    "dev": "vite",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run build",
+    "build": "vite build --outDir build_prod",
+    "preview": "vite preview",
+    "start": "npx http-server build_prod -p 3000 -a 0.0.0.0 -c-1"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@supabase/supabase-js": "2.39.0",
+    "autoprefixer": "^10.4.24",
+    "browser-image-compression": "^2.0.2",
+    "date-fns": "^4.1.0",
+    "jspdf": "^4.1.0",
+    "lucide-react": "^0.556.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "react-router-dom": "^7.10.1",
+    "recharts": "^3.5.1",
+    "serve": "^14.2.4",
+    "tailwindcss": "^3.4.17"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

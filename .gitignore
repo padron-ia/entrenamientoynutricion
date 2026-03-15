@@ -1,0 +1,54 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Build output
+build_prod
+
+# Local Netlify folder
+.netlify
+
+# Temporary Notion imports
+temp_notion/
+
+# Windows/Git conflicts
+nul
+datafields.txt
+
+# Temporary local diagnostics
+diff.txt
+diff.utf8.txt
+all_columns.txt
+check_output.txt
+headers.txt
+tmp_clinical.txt
+
+# Local debug and scratch files
+tmp/
+analyze_triage.cjs
+debug_esm.js
+debug_migration.js
+patch_client_detail.py
+.claude/skills/**/scripts/

@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find:*)",
+      "Bash(du:*)",
+      "Bash(ls:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(npm run build)",
+      "Bash(npm audit:*)",
+      "Bash(node -e:*)",
+      "Bash(node scripts/sync_notion_leads.js:*)",
+      "Bash(wc:*)",
+      "Bash(xargs:*)",
+      "Bash(grep:*)",
+      "Bash(npx tsc:*)",
+      "Bash(gh run list:*)",
+      "Bash(git status:*)",
+      "Bash(awk:*)",
+      "Bash(where:*)",
+      "Bash(npm install:*)",
+      "Bash(dir:*)",
+      "Bash(cd:*)",
+      "Bash(findstr:*)",
+      "Bash(cat:*)",
+      "mcp__ide__getDiagnostics"
+    ]
+  }
+}

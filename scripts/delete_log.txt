@@ -1,0 +1,9 @@
+Starting deletion of test sales...
+No candidates found for "Esther Sanz fernandez" in DB.
+No candidates found for "FERNANDO RAMIREZ CASARRUBIOS" in DB.
+No candidates found for "Antio Lopez" in DB.
+No candidates found for "Pedro Martinez" in DB.
+No candidates found for "Enrique Rodriguez Vega" in DB.
+No candidates found for "Cliente Prueba Dos" in DB.
+No candidates found for "Juan Luis Mayoral Manzano" in DB.
+No candidates found for "Cliente Prueba Uno" in DB.

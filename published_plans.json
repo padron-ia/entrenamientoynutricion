@@ -1,0 +1,353 @@
+[
+  {
+    "id": "6005ec2a-3ecd-43ba-8594-39fea1c82d4e",
+    "name": "Plan Vegetariano Segunda Quincena de Febrero",
+    "diet_type": "Vegetariano",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "8de77119-b772-4bfa-9bb3-7e1e28f65197",
+    "name": "Sin carne roja Primera Quincena de Febrero",
+    "diet_type": "Sin Carne Roja",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "6c43ac68-c53e-4b43-8967-b175e2bac78a",
+    "name": "sdgfsdf",
+    "diet_type": null,
+    "target_calories": 1200,
+    "target_month": null,
+    "target_fortnight": null,
+    "status": "published"
+  },
+  {
+    "id": "3fa760ce-fd5e-47a0-b23e-09b875879ca8",
+    "name": "Flexible Febrero 1",
+    "diet_type": null,
+    "target_calories": 1200,
+    "target_month": null,
+    "target_fortnight": null,
+    "status": "published"
+  },
+  {
+    "id": "0c37b7c0-f431-43b2-a252-5ba5c2dffab2",
+    "name": "Flexible Primera Quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "df9cbaa6-4d9b-4f96-bdb6-3b5fa264b098",
+    "name": "Plan Sin Carne Roja Segunda Quincena de Febrero",
+    "diet_type": "Sin Carne Roja",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "55948487-2892-4b4e-abde-a648f51e930d",
+    "name": "Plan Sin Carne Roja 2 Segunda Quincena de Febrero",
+    "diet_type": "Sin Carne Roja",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "40440fdd-3780-4c07-ab43-31b069dea44a",
+    "name": "Plan flexible Segunda Quincena de Febrero Desayunos tostadas y meriendas dulces",
+    "diet_type": "Flexible",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "b50aadc1-968a-4eeb-9aaf-1cde64eea7bb",
+    "name": "Sin Carne Roja Primera Quincena de Febrero",
+    "diet_type": "Sin Carne Roja",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "417d8131-7567-4d6d-9194-3d92e507f0d3",
+    "name": "Flexible Primera quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "e9208207-b943-4239-a22f-4bc6e8a59fbd",
+    "name": "Protocolo V-S-L Febrero - 1800 kcal",
+    "diet_type": "Vegetariano",
+    "target_calories": 1800,
+    "target_month": null,
+    "target_fortnight": null,
+    "status": "published"
+  },
+  {
+    "id": "0f09bf83-c4b2-4a6b-826c-c0c1e10fc84c",
+    "name": "Antiinflamatorio Chile",
+    "diet_type": null,
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "023955a8-fa49-4ea4-9393-bfce5a518450",
+    "name": "Pescetariano Primera quincena de Febrero",
+    "diet_type": "Pescetariano",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "510c1a37-708d-4c13-b674-4c457ec6c008",
+    "name": "Plan Flexible Segunda quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "9fab7ffe-5b9d-436a-9284-ff9ab0b9e423",
+    "name": "Digestivo Suave Primera Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "7aa0091e-33b9-4e1a-97bc-55c17edd6f31",
+    "name": "Pescetariano Primera Quincena de Febrero",
+    "diet_type": "Pescetariano",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "d772b0fa-a264-4b37-8adf-341afcc3f94e",
+    "name": "Flexible Primera Quincena de Febrero 2",
+    "diet_type": "Flexible",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "1b7e0992-4bbb-4b70-a183-fcd63c2d0855",
+    "name": "Protección biliar flexible",
+    "diet_type": null,
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "b198c861-da8d-40b1-a1a3-f79ced6b3920",
+    "name": "Vegetariano Primera Quincena de Febrero",
+    "diet_type": "Vegetariano",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "d82ecae7-74cc-4c73-91c6-b6447d0ea919",
+    "name": "Plan de hierro Primera Quincena de Febrero",
+    "diet_type": null,
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "90ab2717-c034-4d04-a76a-5c94cd5d84fb",
+    "name": "Digestivo Suave Primera Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "f82c877e-9cb2-4ef1-bc90-533a6edee86a",
+    "name": "Flexible Primera Quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "0c399302-8933-4ac3-8f72-e5503238710f",
+    "name": "Plan Digestivo Suave Sin Gluten Segunda Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "c3a16059-8fa7-46da-ba88-cc3258c6bfba",
+    "name": "Vegetariano Primera Quincena de Febrero",
+    "diet_type": "Vegetariano",
+    "target_calories": 1800,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "26fd8312-fdb1-4bca-aedf-09ca6c6ab4e3",
+    "name": "Digestivo Suave Primera Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "9b5cbe71-fffa-43f8-9f9d-f1b416f6a071",
+    "name": "Sin carne roja Primera Quincena de Febrero",
+    "diet_type": "Sin Carne Roja",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "53dd6b8b-c7ad-4988-b869-55163df21b66",
+    "name": "Plan  Flexible Segunda Quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "f46698d0-be03-4c73-8231-fef94ae26c80",
+    "name": "Flexible Primera quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1800,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "b2bb6471-9591-4bec-8604-be423708917d",
+    "name": "Digestivo Suave Primera Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1800,
+    "target_month": 2,
+    "target_fortnight": 1,
+    "status": "published"
+  },
+  {
+    "id": "50d23850-c40d-4364-9f2e-398ceff515ed",
+    "name": "Plan Digestivo Suave Sin Gluten Segunda Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "b473cfa3-bcad-401a-9758-f913afc68460",
+    "name": "Plan Digestivo Suave  Sin Gluten Segunda Quincena de Febrero",
+    "diet_type": "Sin Gluten",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "3be62d65-f335-4196-8a15-317556ff6dd1",
+    "name": "Plan flexible pesos crudo y cocinado segunda quincena de Febrero",
+    "diet_type": "Flexible",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "cb2d7d7a-9ae3-4138-abd3-5dc0cfe80f6b",
+    "name": "Plan Control de Colesterol Segunda Quincena de Febrero",
+    "diet_type": "Flexible / Control Colesterol",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "f1965af3-4e1e-41c0-8e23-15aa0ff571ed",
+    "name": "Plan flexible Segunda Quincena de Febrero - AC",
+    "diet_type": "Alta en Proteína / Temporada",
+    "target_calories": 1200,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "a60a9083-5ac5-4e55-95ec-44bb5be02fe1",
+    "name": "Plan Vegetariano",
+    "diet_type": "Vegetariano",
+    "target_calories": 1400,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "732ad756-453f-4d18-9231-fca675f7ac16",
+    "name": "Plan Nutricional 1600 kcal Sin Cantidades",
+    "diet_type": "Flexible",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "12963c7c-67f1-42a3-aa67-3feae5da7f06",
+    "name": "Plan Vegetariano Segunda Quincena de Febrero",
+    "diet_type": "Vegetariano",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "eb6b3f4f-b3e9-4bba-9bf2-0a3e7ac15fc7",
+    "name": "Plan Sin Carne Roja Segunda Quincena de Febrero",
+    "diet_type": "Sin Carne Roja",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  },
+  {
+    "id": "01aadb24-7186-4675-a59c-0bbdf5930d05",
+    "name": "Plan Nutricional  Medidas Caseras MP",
+    "diet_type": "Saludable / Basada en alimentos reales",
+    "target_calories": 1600,
+    "target_month": 2,
+    "target_fortnight": 2,
+    "status": "published"
+  }
+]
