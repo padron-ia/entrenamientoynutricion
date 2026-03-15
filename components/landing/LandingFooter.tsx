@@ -26,7 +26,7 @@ export const LandingFooter: React.FC = () => {
               </div>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-500">
-              Centro de transformación física mediante entrenamiento en instalaciones boutique y acompañamiento online con nutrición estratégica.
+              Servicio <strong className="text-white font-medium">Boutique Online</strong> de transformación física con entrenamiento personalizado y nutrición estratégica.
             </p>
           </div>
 

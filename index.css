@@ -181,6 +181,14 @@
     animation: shimmer 2s infinite linear;
   }
 
+  .animate-spin-slow {
+    animation: spin 8s linear infinite;
+  }
+
+  .animate-cinematic-zoom {
+    animation: cinematic-zoom 25s ease-in-out infinite alternate;
+  }
+
   /* Pulse Glow */
   .pulse-glow {
     animation: pulse-glow 2s ease-in-out infinite;
