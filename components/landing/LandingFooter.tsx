@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { MessageCircle } from 'lucide-react';
 
 const WHATSAPP_URL =
-  'https://wa.me/34664401328?text=Hola%2C%20quiero%20informacion%20de%20Padron%20Trainer';
+  'https://wa.me/34664401328?text=Hola%2C%20quiero%20informacion%20de%20La%20Muralla%20Fit%20Boutique';
 
 export const LandingFooter: React.FC = () => {
   const navigate = useNavigate();
@@ -15,19 +15,18 @@ export const LandingFooter: React.FC = () => {
           {/* Brand */}
           <div>
             <div className="inline-flex items-center gap-3">
-              <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-sm font-black text-white">
-                PT
+              <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 shadow-lg overflow-hidden">
+                <img src="/logo_muralla.jpg" alt="Logo La Muralla" className="w-full h-full object-cover" />
               </div>
               <div>
-                <p className="text-base font-black text-white">Padron Trainer</p>
+                <p className="text-base font-black text-white">La Muralla Fit Boutique</p>
                 <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-slate-600">
-                  Coaching & recomposición
+                  Entrenamiento Premium
                 </p>
               </div>
             </div>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-slate-500">
-              Entrenamiento personalizado, nutrición estratégica y acompañamiento real para perder
-              grasa y construir un físico que se mantenga.
+              Centro de transformación física mediante entrenamiento en instalaciones boutique y acompañamiento online con nutrición estratégica.
             </p>
           </div>
 
@@ -72,8 +71,8 @@ export const LandingFooter: React.FC = () => {
             <p className="text-xs font-black uppercase tracking-[0.16em] text-slate-500">Contacto</p>
             <ul className="mt-4 space-y-3 text-sm text-slate-400">
               <li>
-                <a href="https://instagram.com/padrontrainer" target="_blank" rel="noopener noreferrer" className="transition hover:text-emerald-400">
-                  📸 @padrontrainer
+                <a href="https://instagram.com/lamurallafitboutique" target="_blank" rel="noopener noreferrer" className="transition hover:text-emerald-400">
+                  📸 @lamurallafitboutique
                 </a>
               </li>
               <li>
@@ -88,10 +87,10 @@ export const LandingFooter: React.FC = () => {
         {/* Bottom bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/[0.06] pt-6 sm:flex-row">
           <p className="text-xs text-slate-600">
-            © {new Date().getFullYear()} Padron Trainer. Todos los derechos reservados.
+            © {new Date().getFullYear()} La Muralla Fit Boutique. Todos los derechos reservados.
           </p>
           <p className="text-xs text-slate-700">
-            Hecho con 💪 para gente que quiere resultados reales
+            Hecho con 💪 para gente que quiere resultados irreales
           </p>
         </div>
       </div>

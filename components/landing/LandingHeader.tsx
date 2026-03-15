@@ -24,13 +24,13 @@ export const LandingHeader: React.FC = () => {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
         <button type="button" onClick={() => navigate('/')} className="inline-flex items-center gap-3">
-          <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-sm font-black text-white shadow-lg shadow-emerald-500/20">
-            PT
+          <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-sm font-black text-white shadow-lg shadow-emerald-500/20 overflow-hidden">
+            <img src="/logo_muralla.jpg" alt="Logo La Muralla" className="w-full h-full object-cover" />
           </div>
           <div className="text-left">
-            <p className="text-base font-black text-white">Padron Trainer</p>
+            <p className="text-base font-black text-white">La Muralla</p>
             <p className="text-[10px] font-bold uppercase tracking-[0.16em] text-slate-500">
-              Coaching & recomposición
+              Fit Boutique
             </p>
           </div>
         </button>

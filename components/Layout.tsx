@@ -579,15 +579,14 @@ const Layout: React.FC<LayoutProps> = ({ children, user, onLogout, activeView, o
       {/* Sidebar desktop (sin cambios) */}
       <aside className="hidden md:flex print:hidden w-72 bg-[#0f172a] flex-col fixed h-full z-20 shadow-xl border-r border-slate-800/50">
         <div onClick={() => onNavigate('dashboard')} className="p-8 pb-4 flex items-center gap-3 cursor-pointer group/logo transition-all hover:opacity-80">
-          <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-sm font-black text-white shadow-lg shadow-emerald-500/20 group-hover/logo:scale-110 transition-transform duration-300">
-            PT
+          <div className="grid h-10 w-10 place-items-center rounded-xl bg-gradient-to-br from-emerald-500 to-emerald-600 text-sm font-black text-white shadow-lg shadow-emerald-500/20 group-hover/logo:scale-110 transition-transform duration-300 overflow-hidden">
+            <img src="/logo_muralla.jpg" alt="Logo La Muralla" className="w-full h-full object-cover" />
           </div>
           <div>
-            <h1 className="font-bold text-white text-lg tracking-tight leading-none group-hover/logo:text-emerald-400 transition-colors">PT CRM v2</h1>
-            <p className="text-xs text-slate-400 font-medium mt-1">Padron Trainer</p>
+            <h1 className="font-bold text-white text-lg tracking-tight leading-none group-hover/logo:text-emerald-400 transition-colors">La Muralla</h1>
+            <p className="text-xs text-slate-400 font-medium mt-1">Fit Boutique</p>
           </div>
         </div>
-
         <nav className="flex-1 px-4 py-6 space-y-1 overflow-y-auto custom-scrollbar">
           {isDireccion ? (
             <>

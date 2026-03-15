@@ -91,8 +91,8 @@ export function ClientPortalDashboard({ client, onRefresh, onStartAnamnesis }: C
     const recursosDesktopRef = useRef<HTMLDivElement | null>(null);
     const perfilSectionRef = useRef<HTMLDivElement | null>(null);
 
-    const tourSeenStorageKey = `ado_client_tour_seen_${client.id}`;
-    const checklistStorageKey = `ado_client_start_checklist_${client.id}`;
+    const tourSeenStorageKey = `pt_client_tour_seen_${client.id}`;
+    const checklistStorageKey = `pt_client_start_checklist_${client.id}`;
 
     const tourSteps = [
         {

@@ -46,13 +46,15 @@ export function PortalHeader({ clientId, coachId, firstName, coachData }: Portal
 
     const [isDark, setIsDark] = useState(() => {
         if (typeof window === 'undefined') return false;
-        return localStorage.getItem('ado-dark-mode') === 'true';
+        // Inicializar el modo oscuro basado en localStorage o preferencia del sistema
+        return localStorage.getItem('lm-dark-mode') === 'true' ||
+            (!('lm-dark-mode' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches);
     });
 
     useEffect(() => {
         const root = document.documentElement;
         if (isDark) { root.classList.add('dark'); } else { root.classList.remove('dark'); }
-        localStorage.setItem('ado-dark-mode', String(isDark));
+        localStorage.setItem('lm-dark-mode', String(isDark));
     }, [isDark]);
 
     return (

@@ -288,7 +288,7 @@ export function ContractView({ client, onBack, onRefresh }: ContractViewProps) {
                             <AlertCircle className="w-4 h-4" /> Protección de Datos de Salud (RGPD)
                         </h4>
                         <p className="text-[11px] text-blue-800 leading-normal text-justify mb-3">
-                            Para poder ofrecerte un servicio personalizado, necesitamos tratar tus datos de categoría especial (glucosa, peso, medicación, etc.). Estos datos serán visibles exclusivamente para tu Coach y el equipo médico de la Academia, y no serán compartidos con terceros sin tu permiso expreso.
+                            Para poder ofrecerte un servicio personalizado, necesitamos tratar tus datos de categoría especial (glucosa, peso, medicación, etc.). Estos datos serán visibles exclusivamente para tu Coach y el equipo de La Muralla Fit Boutique, y no serán compartidos con terceros sin tu permiso expreso.
                         </p>
                         <label className="flex items-start gap-3 cursor-pointer">
                             <input

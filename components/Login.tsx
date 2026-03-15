@@ -50,19 +50,25 @@ const Login: React.FC<LoginProps> = ({ onLogin, onRegisterClick, error: external
       <div className="w-full max-w-md z-10 animate-in fade-in slide-in-from-bottom-4 duration-700">
         {/* Brand Header */}
         <div className="mb-10 text-center">
-          <div className="inline-flex items-center justify-center p-4 bg-blue-600/20 backdrop-blur-xl rounded-[2.5rem] border border-blue-500/30 mb-6 shadow-2xl w-28 h-28">
-            <span className="text-4xl font-black text-blue-400 tracking-tight">PT</span>
+          <div className="inline-flex items-center justify-center p-4 bg-blue-600/20 backdrop-blur-xl rounded-[2.5rem] border border-blue-500/30 mb-6 shadow-2xl w-28 h-28 overflow-hidden">
+            <img src="/logo_muralla.jpg" alt="Logo La Muralla" className="w-full h-full object-cover rounded-[1.5rem]" />
           </div>
           <h1 className="text-4xl font-black text-white tracking-tight mb-2">
-            Padron Trainer
+            La Muralla
           </h1>
-          <p className="text-slate-400 font-medium">Plataforma de Entrenamiento y Coaching</p>
+          <p className="text-slate-400 font-medium">Fit Boutique & Coaching</p>
         </div>
 
         <div className="bg-white/5 backdrop-blur-2xl rounded-[3rem] border border-white/10 p-8 md:p-10 shadow-2xl">
           <div className="mb-8">
             <h2 className="text-xl font-bold text-white text-center">Bienvenido de nuevo</h2>
             <p className="text-slate-400 text-sm text-center mt-1">Ingresa tus datos para acceder a tu panel</p>
+          </div>
+
+          <div className="absolute bottom-6 text-center w-full z-10 animate-in fade-in duration-1000 delay-500">
+            <p className="text-slate-500 text-xs font-medium">
+              &copy; {new Date().getFullYear()} La Muralla Fit Boutique. Sistema de Gestión Privado.
+            </p>
           </div>
 
           {error && (

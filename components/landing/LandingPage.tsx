@@ -31,7 +31,7 @@ import { LandingHeader } from './LandingHeader';
 import { LandingFooter } from './LandingFooter';
 
 const WHATSAPP_URL =
-  'https://wa.me/34664401328?text=Hola%2C%20quiero%20solicitar%20informacion%20de%20Padron%20Trainer';
+  'https://wa.me/34664401328?text=Hola%2C%20quiero%20solicitar%20informacion%20de%20La%20Muralla%20Fit%20Boutique';
 
 /* ——— Scroll-reveal hook ——— */
 function useReveal() {
@@ -139,7 +139,7 @@ export const LandingPage: React.FC = () => {
               </h1>
 
               <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-slate-400 sm:text-xl">
-                Sin dietas absurdas, sin rebote, sin improvisar cada lunes. Con un sistema de
+                Sin dietas absurdas, sin rebote, sin improvisar cada lunes. Entrena en nuestro centro premium o desde casa con un sistema de
                 entrenamiento, nutrición y acompañamiento real que funciona.
               </p>
 
@@ -274,7 +274,7 @@ export const LandingPage: React.FC = () => {
             <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mx-auto max-w-3xl text-center">
                 <span className="text-xs font-black uppercase tracking-[0.18em] text-emerald-300">
-                  El método Padron Trainer
+                  El método La Muralla Fit Boutique
                 </span>
                 <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
                   3 fases para perder grasa y{' '}
@@ -357,7 +357,7 @@ export const LandingPage: React.FC = () => {
                     age: 34,
                     result: '-6.8 kg en 11 semanas',
                     quote:
-                      'Llevaba años yendo al gimnasio sin resultados claros. En 3 meses con Padron Trainer cambié más que en los últimos 3 años. La diferencia es que aquí nadie te deja solo.',
+                      'Llevaba años yendo al gimnasio sin resultados claros. En 3 meses con La Muralla Fit Boutique cambié más que en los últimos 3 años. El ambiente del centro y el acompañamiento online marcan la diferencia.',
                     rating: 5,
                   },
                   {
@@ -430,23 +430,23 @@ export const LandingPage: React.FC = () => {
                 {/* Bio */}
                 <div className="lg:col-span-3">
                   <span className="text-xs font-black uppercase tracking-[0.18em] text-emerald-300">
-                    Quién está detrás
+                    Quiénes somos
                   </span>
                   <h2 className="mt-4 text-4xl font-black leading-tight">
-                    Jesús Martínez Padrón
+                    La Muralla Fit Boutique
                   </h2>
                   <p className="mt-2 text-sm font-bold uppercase tracking-wider text-emerald-400">
-                    Coach de Recomposición Corporal & Fundador de Padron Trainer
+                    Centro de Alto Rendimiento y Coaching de Recomposición Corporal
                   </p>
                   <p className="mt-5 text-base leading-relaxed text-slate-400">
-                    Después de trabajar con cientos de personas, me di cuenta de que la mayoría no
-                    necesita más motivación — necesita estructura, datos y alguien que le acompañe de
-                    verdad. Por eso creé Padron Trainer: un sistema donde cada alumno tiene plan
-                    personalizado, seguimiento semanal y un equipo completo de coaches detrás.
+                    Después de trabajar con cientos de personas, nuestro equipo de coaches y profesionales determinó que la mayoría no
+                    necesita más motivación — necesita estructura, datos, herramientas de primer nivel y alguien que les acompañe de
+                    verdad. Por eso creamos La Muralla Fit Boutique: un ecosistema donde cada socio tiene un plan
+                    personalizado, entrenamiento de fuerza guiado, seguimiento semanal nutricional y un equipo completo de especialistas a su servicio.
                   </p>
                   <p className="mt-4 text-base leading-relaxed text-slate-400">
-                    No vendemos humo ni transformaciones de 2 semanas. Vendemos un proceso real que
-                    funciona porque está diseñado para adaptarse a tu vida, no al revés.
+                    No vendemos humo ni transformaciones irreales. Vendemos ciencia, compromiso y un proceso que
+                    funciona porque está diseñado para hacerte tu mejor versión.
                   </p>
 
                   <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
@@ -672,7 +672,7 @@ export const LandingPage: React.FC = () => {
             </div>
 
             <p className="mt-8 text-sm text-slate-600">
-              +196 personas ya confían en Padron Trainer. La siguiente puedes ser tú.
+              +196 personas ya confían en La Muralla Fit Boutique. La siguiente puedes ser tú.
             </p>
           </div>
         </section>

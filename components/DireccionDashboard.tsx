@@ -292,16 +292,13 @@ export const DireccionDashboard: React.FC<DireccionDashboardProps> = ({ user, on
     return (
         <div className="max-w-7xl mx-auto space-y-8 pb-20 animate-in fade-in slide-in-from-bottom-4 duration-500">
             {/* Header */}
-            <div className="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-slate-100 pb-6">
+            <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
                 <div>
-                    <div className="flex items-center gap-2 text-indigo-600 font-bold text-xs uppercase tracking-widest mb-2">
-                        <Activity className="w-4 h-4" />
-                        Business Intelligence
-                    </div>
-                    <h1 className="text-3xl font-black text-slate-900 tracking-tight">
+                    <h1 className="text-2xl font-bold text-slate-900 flex items-center gap-2">
+                        <Building2 className="w-8 h-8 text-sea-600" />
                         Panel de Dirección
                     </h1>
-                    <p className="text-slate-500 mt-1">Vista consolidada por rol con datos en tiempo real.</p>
+                    <p className="text-slate-500">Resumen ejecutivo y KPIs de La Muralla Fit Boutique</p>
                 </div>
                 <div className="flex items-center gap-3 flex-wrap">
                     {/* Selector de Mes */}

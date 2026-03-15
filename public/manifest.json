@@ -1,7 +1,7 @@
 {
-  "name": "Padron Trainer",
-  "short_name": "PT",
-  "description": "Portal de seguimiento personalizado para alumnos de Padron Trainer",
+  "name": "La Muralla Fit Boutique",
+  "short_name": "LM Fit",
+  "description": "Portal de clientes y staff de La Muralla Fit Boutique",
   "start_url": "/",
   "scope": "/",
   "id": "/",
