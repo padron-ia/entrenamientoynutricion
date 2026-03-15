@@ -23,6 +23,12 @@ supabase secrets set TURNSTILE_SECRET_KEY=tu_secret_key
 supabase functions deploy public-lead-capture
 ```
 
+## SQL opcional (fallback)
+
+Si quieres habilitar insercion anonima directa en `leads` (sin Edge Function), aplica:
+
+`database/migrations/20260315_public_leads_insert_policy.sql`
+
 ## Flujo
 
 1. Usuario completa formulario publico.
