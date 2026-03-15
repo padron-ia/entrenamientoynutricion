@@ -1,4 +1,4 @@
-# Cache Burst: 2026-02-10 15:50
+# Cache Burst: 2026-03-15
 [phases.setup]
     nixPkgs = ["nodejs_20"]
 
@@ -6,5 +6,4 @@
     cmds = ["npm install", "npm run build"]
 
 [start]
-    # Forzamos a Nix a usar el puerto 80 y a escuchar a todo el mundo (0.0.0.0)
-    cmd = "npx http-server build_prod -p 80 -a 0.0.0.0 -c-1"
+    cmd = "npx serve -s build_prod -l 3000"
