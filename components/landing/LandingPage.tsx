@@ -114,8 +114,18 @@ export const LandingPage: React.FC = () => {
       <main>
         {/* ════════════════ 1. HERO ════════════════ */}
         <section className="relative overflow-hidden pb-20 pt-32 lg:pb-28 lg:pt-44">
+          {/* Hero Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2070&auto=format&fit=crop" 
+              alt="Gym Background" 
+              className="h-full w-full object-cover opacity-15" 
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-[#060a13]/50 via-[#060a13]/80 to-[#060a13]" />
+          </div>
+
           {/* Background glow */}
-          <div className="pointer-events-none absolute inset-0">
+          <div className="pointer-events-none absolute inset-0 z-0">
             <div className="absolute -left-32 -top-40 h-[40rem] w-[40rem] rounded-full bg-emerald-500/[0.07] blur-[120px]" />
             <div className="absolute -right-28 top-20 h-[34rem] w-[34rem] rounded-full bg-cyan-500/[0.06] blur-[100px]" />
             <div className="absolute bottom-0 left-1/2 h-px w-3/4 -translate-x-1/2 bg-gradient-to-r from-transparent via-emerald-500/20 to-transparent" />
@@ -416,10 +426,12 @@ export const LandingPage: React.FC = () => {
                 {/* Photo placeholder */}
                 <div className="mx-auto lg:col-span-2">
                   <div className="relative">
-                    <div className="h-80 w-72 rounded-3xl border border-white/10 bg-gradient-to-br from-emerald-900/40 to-slate-900 p-1 shadow-2xl sm:h-96 sm:w-80">
-                      <div className="flex h-full w-full items-center justify-center rounded-[1.35rem] bg-slate-800/60 text-8xl">
-                        💪
-                      </div>
+                    <div className="group h-80 w-72 overflow-hidden rounded-3xl border border-white/10 bg-gradient-to-br from-emerald-900/40 to-slate-900 p-1 shadow-2xl sm:h-96 sm:w-80">
+                      <img 
+                        src="https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=2070&auto=format&fit=crop" 
+                        alt="Equipo La Muralla" 
+                        className="h-full w-full rounded-[1.35rem] object-cover opacity-80 transition-transform duration-700 group-hover:scale-105" 
+                      />
                     </div>
                     <div className="absolute -bottom-4 -right-4 rounded-2xl border border-emerald-500/20 bg-slate-900 px-4 py-2 shadow-xl">
                       <p className="text-xs font-bold text-emerald-400">+8 años de experiencia</p>
@@ -637,7 +649,17 @@ export const LandingPage: React.FC = () => {
 
         {/* ════════════════ 10. CTA FINAL ════════════════ */}
         <section className="relative overflow-hidden py-24">
-          <div className="pointer-events-none absolute inset-0">
+          {/* Background Image */}
+          <div className="absolute inset-0 z-0">
+            <img 
+              src="https://images.unsplash.com/photo-1574680093668-39f50e04b4ee?q=80&w=2069&auto=format&fit=crop" 
+              alt="Gym Final CTA" 
+              className="h-full w-full object-cover opacity-[0.12]" 
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#060a13] via-[#060a13]/80 to-[#060a13]" />
+          </div>
+
+          <div className="pointer-events-none absolute inset-0 z-0">
             <div className="absolute left-1/2 top-0 h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-emerald-500/[0.08] blur-[100px]" />
           </div>
           <div className="relative z-10 mx-auto w-full max-w-4xl px-4 text-center sm:px-6 lg:px-8">

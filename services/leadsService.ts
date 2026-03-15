@@ -1,6 +1,20 @@
 import { supabase } from './supabaseClient';
 import { Lead, LeadStatus, Client, ClientStatus } from '../types';
 
+type PublicLeadPayload = {
+    firstName: string;
+    surname: string;
+    phone: string;
+    email?: string;
+    instagram_user?: string;
+    notes?: string;
+    source?: string;
+    procedencia?: 'Formulario';
+    in_out?: 'Inbound';
+    turnstileToken: string;
+    website?: string;
+};
+
 export const leadsService = {
     // --- CRUD ---
 
@@ -30,6 +44,22 @@ export const leadsService = {
             .single();
 
         if (error) throw error;
+        return data;
+    },
+
+    async capturePublicLead(payload: PublicLeadPayload): Promise<{ success: boolean; message?: string; leadId?: string; deduplicated?: boolean }> {
+        const { data, error } = await supabase.functions.invoke('public-lead-capture', {
+            body: payload,
+        });
+
+        if (error) {
+            throw new Error(error.message || 'No se pudo enviar la solicitud');
+        }
+
+        if (!data?.success) {
+            throw new Error(data?.error || 'No se pudo enviar la solicitud');
+        }
+
         return data;
     },
 
