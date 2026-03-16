@@ -67,7 +67,10 @@ serve(async (req) => {
       });
     }
 
+    console.log("Received fields:", JSON.stringify({ firstName, surname, phone, email, turnstileToken: turnstileToken ? "present" : "missing" }));
+
     if (!firstName || !surname || !phone) {
+      console.error("400: Faltan campos obligatorios", { firstName, surname, phone });
       return new Response(JSON.stringify({ success: false, error: "Faltan campos obligatorios" }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
@@ -89,6 +92,7 @@ serve(async (req) => {
     }
 
     if (!turnstileToken) {
+      console.error("400: Captcha requerido - no turnstileToken in body");
       return new Response(JSON.stringify({ success: false, error: "Captcha requerido" }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },
@@ -114,7 +118,9 @@ serve(async (req) => {
     });
 
     const verifyData = await verifyRes.json();
+    console.log("Turnstile verify response:", JSON.stringify(verifyData));
     if (!verifyData.success) {
+      console.error("400: Captcha inválido", JSON.stringify(verifyData));
       return new Response(JSON.stringify({ success: false, error: "Captcha inválido" }), {
         status: 400,
         headers: { ...corsHeaders, "Content-Type": "application/json" },

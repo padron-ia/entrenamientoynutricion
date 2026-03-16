@@ -85,6 +85,30 @@ export const leadsService = {
         if (error) throw error;
     },
 
+    // --- METRICS ---
+
+    getMetrics(leads: Lead[]) {
+        const total = leads.length;
+        const byStatus = {} as Record<string, number>;
+        let presentados = 0;
+        let cierres = 0;
+        let revenue = 0;
+
+        for (const lead of leads) {
+            byStatus[lead.status] = (byStatus[lead.status] || 0) + 1;
+            if (lead.attended) presentados++;
+            if (lead.status === 'WON') {
+                cierres++;
+                if (lead.sale_price) revenue += Number(lead.sale_price) || 0;
+            }
+        }
+
+        const showRate = total > 0 ? ((presentados / total) * 100).toFixed(1) : '0';
+        const closeRate = presentados > 0 ? ((cierres / presentados) * 100).toFixed(1) : '0';
+
+        return { total, byStatus, presentados, cierres, showRate, closeRate, revenue };
+    },
+
     // --- ACTIONS ---
 
     /**

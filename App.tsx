@@ -44,7 +44,7 @@ const SupportTicketsView = lazy(() => import('./components/SupportTicketsView').
 const StaffPortalView = lazy(() => import('./components/StaffPortalView').then(m => ({ default: m.StaffPortalView })));
 const TeamOnboardingPage = lazy(() => import('./components/TeamOnboardingPage'));
 const ActivateAccountPage = lazy(() => import('./components/activation/ActivateAccountPage').then(m => ({ default: m.ActivateAccountPage })));
-const LeadsKanban = lazy(() => import('./components/leads/LeadsKanban'));
+const LeadsPipeline = lazy(() => import('./components/leads/LeadsPipeline'));
 const StaffManagementView = lazy(() => import('./components/StaffManagementView'));
 const ChatView = lazy(() => import('./components/chat/ChatView').then(m => ({ default: m.ChatView })));
 const AssessmentPortal = lazy(() => import('./components/assessment/AssessmentPortal').then(m => ({ default: m.AssessmentPortal })));
@@ -670,7 +670,7 @@ const AppContent: React.FC = () => {
             />
           </div>
         ) : activeView === 'leads' ? (
-          <LeadsKanban currentUser={user} />
+          <LeadsPipeline currentUser={user} />
         ) : activeView === 'chat' ? (
           <ChatView user={user} />
         ) : activeView === 'assessment-manager' ? (
