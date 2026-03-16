@@ -429,13 +429,19 @@ export function TrainingManagement({ currentUser }: TrainingManagementProps) {
                                             <button onClick={(e) => { e.stopPropagation(); setConfirmDelete({ type: 'program', id: p.id, name: p.name }); }} className="absolute top-3 right-3 z-10 p-2 text-white/60 hover:text-white opacity-0 group-hover:opacity-100 transition-all hover:bg-white/20 rounded-lg"><Trash2 className="w-4 h-4" /></button>
                                             <div className="h-36 bg-gradient-to-br from-sky-500 to-blue-600 relative p-6 flex flex-col justify-end overflow-hidden">
                                                 <Calendar className="w-8 h-8 text-white/20 absolute top-4 right-4" />
-                                                <span className="px-2 py-0.5 bg-white/20 text-white text-[10px] font-black rounded uppercase w-fit mb-2">Planificación</span>
+                                                <div className="flex items-center gap-2 mb-2 flex-wrap">
+                                                    <span className="px-2 py-0.5 bg-white/20 text-white text-[10px] font-black rounded uppercase">Planificación</span>
+                                                    {(p as any).difficulty && <span className="px-2 py-0.5 bg-white/30 text-white text-[10px] font-black rounded uppercase">{(p as any).difficulty}</span>}
+                                                </div>
                                                 <h5 className="text-white font-black text-xl leading-tight">{p.name}</h5>
                                             </div>
                                             <div className="p-6">
-                                                <div className="flex items-center justify-between text-xs text-slate-400 font-bold uppercase mb-4">
+                                                <div className="flex items-center justify-between text-xs text-slate-400 font-bold uppercase mb-3">
                                                     <span>{p.weeks_count} Semanas</span><span>{p.days?.length || 0} Días</span>
                                                 </div>
+                                                {(p as any).description && (
+                                                    <p className="text-xs text-slate-500 mb-4 line-clamp-2 leading-relaxed">{(p as any).description}</p>
+                                                )}
                                                 <button className="w-full py-3 bg-slate-50 text-slate-600 font-black rounded-2xl group-hover:bg-brand-green group-hover:text-white transition-all flex items-center justify-center gap-2">Editar <ArrowRight className="w-4 h-4" /></button>
                                             </div>
                                         </div>

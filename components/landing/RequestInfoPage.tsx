@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowRight, Loader2, MessageCircle, ShieldCheck, Sparkles } from 'lucide-react';
+import { ArrowRight, Loader2, MessageCircle, Sparkles } from 'lucide-react';
 import { leadsService } from '../../services/leadsService';
 
 declare global {
@@ -229,11 +229,6 @@ export const RequestInfoPage: React.FC = () => {
               className="hidden"
               aria-hidden="true"
             />
-
-            <div className="mt-1 flex items-center gap-2 rounded-xl border border-cyan-400/30 bg-cyan-400/10 p-3 text-xs text-cyan-200">
-              <ShieldCheck className="h-4 w-4" />
-              Protección anti-spam activa. Tu solicitud se valida antes de entrar al CRM.
-            </div>
 
             <div ref={captchaContainerRef} className="mt-1" />
 

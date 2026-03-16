@@ -44,6 +44,12 @@ export function ProgramDesigner({
 }: ProgramDesignerProps) {
     const [name, setName] = useState(program?.name || '');
     const [description, setDescription] = useState(program?.description || '');
+    const [presentation, setPresentation] = useState((program as any)?.presentation || '');
+    const [objectives, setObjectives] = useState((program as any)?.objectives || '');
+    const [whatYouFind, setWhatYouFind] = useState((program as any)?.what_you_find || '');
+    const [difficulty, setDifficulty] = useState((program as any)?.difficulty || '');
+    const [targetAudience, setTargetAudience] = useState((program as any)?.target_audience || '');
+    const [showProgramInfo, setShowProgramInfo] = useState(false);
     const [weeksCount, setWeeksCount] = useState(program?.weeks_count || 4);
     const [days, setDays] = useState<ProgramDay[]>(() => {
         const rawDays = program?.days || [];
@@ -108,9 +114,14 @@ export function ProgramDesigner({
                 id: program?.id || '',
                 name: name.trim(),
                 description,
+                presentation,
+                objectives,
+                what_you_find: whatYouFind,
+                difficulty,
+                target_audience: targetAudience,
                 weeks_count: weeksCount,
                 days: validDays
-            });
+            } as any);
             setHasChanges(false);
         } catch (error) {
             setSaveError('Error al guardar. Revisa los datos.');
@@ -651,6 +662,78 @@ export function ProgramDesigner({
 
                 {/* Right: Library Sidebar */}
                 <aside className="w-80 bg-white border-l border-slate-200 flex flex-col animate-slide-in">
+
+                    {/* Program Info Collapsible */}
+                    <div className="border-b border-slate-100">
+                        <button
+                            onClick={() => setShowProgramInfo(prev => !prev)}
+                            className="w-full flex items-center justify-between px-4 py-3 hover:bg-slate-50 transition-colors"
+                        >
+                            <div className="flex items-center gap-2">
+                                <ClipboardList className="w-4 h-4 text-slate-400" />
+                                <span className="text-xs font-black text-slate-800 uppercase tracking-widest">Info del Programa</span>
+                            </div>
+                            {showProgramInfo ? <ChevronUp className="w-3.5 h-3.5 text-slate-400" /> : <ChevronDown className="w-3.5 h-3.5 text-slate-400" />}
+                        </button>
+                        {showProgramInfo && (
+                            <div className="px-4 pb-4 space-y-3">
+                                <div className="space-y-1">
+                                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Dificultad</label>
+                                    <select
+                                        value={difficulty}
+                                        onChange={e => { setDifficulty(e.target.value); setHasChanges(true); }}
+                                        className="w-full px-3 py-2 bg-slate-50 border border-slate-100 rounded-lg text-xs font-bold focus:ring-2 focus:ring-brand-green/20 focus:border-brand-green transition-all"
+                                    >
+                                        <option value="">Sin especificar</option>
+                                        <option value="principiante">Principiante</option>
+                                        <option value="intermedio">Intermedio</option>
+                                        <option value="avanzado">Avanzado</option>
+                                    </select>
+                                </div>
+                                <div className="space-y-1">
+                                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Para quién</label>
+                                    <input
+                                        type="text"
+                                        value={targetAudience}
+                                        onChange={e => { setTargetAudience(e.target.value); setHasChanges(true); }}
+                                        placeholder="Ej: Personas mayores de 60 años..."
+                                        className="w-full px-3 py-2 bg-slate-50 border border-slate-100 rounded-lg text-xs font-medium focus:ring-2 focus:ring-brand-green/20 focus:border-brand-green transition-all"
+                                    />
+                                </div>
+                                <div className="space-y-1">
+                                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Presentación</label>
+                                    <textarea
+                                        value={presentation}
+                                        onChange={e => { setPresentation(e.target.value); setHasChanges(true); }}
+                                        rows={3}
+                                        placeholder="Describe el programa al alumno..."
+                                        className="w-full px-3 py-2 bg-slate-50 border border-slate-100 rounded-lg text-xs font-medium focus:ring-2 focus:ring-brand-green/20 focus:border-brand-green transition-all resize-none"
+                                    />
+                                </div>
+                                <div className="space-y-1">
+                                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Objetivos</label>
+                                    <textarea
+                                        value={objectives}
+                                        onChange={e => { setObjectives(e.target.value); setHasChanges(true); }}
+                                        rows={3}
+                                        placeholder="Qué logrará el alumno..."
+                                        className="w-full px-3 py-2 bg-slate-50 border border-slate-100 rounded-lg text-xs font-medium focus:ring-2 focus:ring-brand-green/20 focus:border-brand-green transition-all resize-none"
+                                    />
+                                </div>
+                                <div className="space-y-1">
+                                    <label className="text-[9px] font-black text-slate-400 uppercase tracking-widest">Qué encontrará</label>
+                                    <textarea
+                                        value={whatYouFind}
+                                        onChange={e => { setWhatYouFind(e.target.value); setHasChanges(true); }}
+                                        rows={3}
+                                        placeholder="Contenido del programa..."
+                                        className="w-full px-3 py-2 bg-slate-50 border border-slate-100 rounded-lg text-xs font-medium focus:ring-2 focus:ring-brand-green/20 focus:border-brand-green transition-all resize-none"
+                                    />
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
                     <div className="p-4 border-b border-slate-100 bg-slate-50/50">
                         <div className="flex items-center gap-2 mb-1">
                             <Layout className="w-4 h-4 text-slate-400" />

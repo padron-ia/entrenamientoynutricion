@@ -1198,6 +1198,7 @@ export interface Workout {
   id: string;
   name: string;
   description?: string;
+  instructions?: string;
   goal?: string;
   notes?: string;
   created_by?: string;
@@ -1234,6 +1235,11 @@ export interface TrainingProgram {
   id: string;
   name: string;
   description?: string;
+  presentation?: string;
+  objectives?: string;
+  what_you_find?: string;
+  difficulty?: string;
+  target_audience?: string;
   weeks_count: number;
   created_by?: string;
   created_at?: string;
@@ -1246,6 +1252,8 @@ export interface ProgramDay {
   program_id: string;
   week_number: number;
   day_number: number;
+  title?: string;
+  description?: string;
   activities: ProgramActivity[];
 }
 
