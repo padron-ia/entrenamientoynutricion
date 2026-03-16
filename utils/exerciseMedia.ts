@@ -10,7 +10,11 @@ export const ExerciseMediaUtils = {
         if (!url) return null;
 
         if (type === 'youtube') {
-            const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+            // Shorts: youtube.com/shorts/ID
+            const shortsMatch = url.match(/youtube\.com\/shorts\/([^#\&\?\/]{11})/);
+            if (shortsMatch) return shortsMatch[1];
+            // Standard formats: watch?v=, youtu.be/, embed/, v/
+            const regExp = /^.*(youtu\.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
             const match = url.match(regExp);
             return (match && match[2].length === 11) ? match[2] : null;
         }
