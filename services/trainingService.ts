@@ -319,6 +319,11 @@ export const trainingService = {
         const programData = {
             name: program.name,
             description: program.description,
+            presentation: program.presentation,
+            objectives: program.objectives,
+            what_you_find: program.what_you_find,
+            difficulty: program.difficulty,
+            target_audience: program.target_audience,
             weeks_count: program.weeks_count,
             updated_at: new Date().toISOString()
         };

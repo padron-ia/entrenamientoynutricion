@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { ChevronRight, Clock, Dumbbell, Loader2, PlayCircle, Save, CheckCircle2, CalendarDays, Star, ClipboardCheck, Pause, Play, RotateCcw, ExternalLink, Volume2, VolumeX, Footprints, Camera, FileText } from 'lucide-react';
-import { ClientActivityLog, ClientDayLog, ProgramActivity, ProgramDay, WorkoutExercise } from '../../types';
+import { ChevronRight, Clock, Dumbbell, Loader2, PlayCircle, Save, CheckCircle2, CalendarDays, Star, ClipboardCheck, Pause, Play, RotateCcw, ExternalLink, Volume2, VolumeX, Footprints, Camera, FileText, ChevronDown, ChevronUp, Info } from 'lucide-react';
+import { ClientActivityLog, ClientDayLog, ProgramActivity, ProgramDay, TrainingProgram, WorkoutExercise } from '../../types';
 import { trainingService } from '../../services/trainingService';
 import { ExerciseMediaUtils } from '../../utils/exerciseMedia';
 import { ClientWorkoutHistory } from '../training/ClientWorkoutHistory';
@@ -148,6 +148,8 @@ export function TrainingWorkspaceView({ clientId, onBack, embedded = false }: Tr
     };
   }, []);
 
+  const [program, setProgram] = useState<TrainingProgram | null>(null);
+  const [programInfoOpen, setProgramInfoOpen] = useState(false);
   const [programDays, setProgramDays] = useState<ProgramDay[]>([]);
   const [selectedDayId, setSelectedDayId] = useState<string>('');
   const [selectedWeek, setSelectedWeek] = useState<number>(1);
@@ -217,6 +219,7 @@ export function TrainingWorkspaceView({ clientId, onBack, embedded = false }: Tr
         return a.day_number - b.day_number;
       });
 
+      setProgram(payload.program);
       setProgramDays(sortedDays);
 
       const allDayLogs = await trainingService.getClientAllDayLogs(clientId);
@@ -947,6 +950,63 @@ export function TrainingWorkspaceView({ clientId, onBack, embedded = false }: Tr
         </button>
       )}
 
+      {program && (program.presentation || program.objectives || program.description) && (
+        <div className="glass rounded-3xl shadow-card border border-blue-100/50 overflow-hidden">
+          <div
+            className="flex items-center justify-between gap-4 p-5 cursor-pointer select-none"
+            onClick={() => setProgramInfoOpen((prev) => !prev)}
+          >
+            <div className="flex items-center gap-3">
+              <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-2xl flex items-center justify-center shrink-0">
+                <Info className="w-5 h-5 text-white" />
+              </div>
+              <div>
+                <h2 className="font-black text-sea-900">{program.name}</h2>
+                {program.difficulty && (
+                  <span className="text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-100 text-blue-700 uppercase tracking-wide">
+                    {program.difficulty}
+                  </span>
+                )}
+              </div>
+            </div>
+            <button className="text-slate-400 hover:text-sea-700 transition-colors shrink-0">
+              {programInfoOpen ? <ChevronUp className="w-5 h-5" /> : <ChevronDown className="w-5 h-5" />}
+            </button>
+          </div>
+
+          {programInfoOpen && (
+            <div className="px-5 pb-5 space-y-3 border-t border-slate-100 pt-4">
+              {program.presentation && (
+                <p className="text-sm text-slate-700 leading-relaxed">{program.presentation}</p>
+              )}
+              {program.objectives && (
+                <div>
+                  <p className="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">Objetivos</p>
+                  <p className="text-sm text-slate-700">{program.objectives}</p>
+                </div>
+              )}
+              {program.what_you_find && (
+                <div>
+                  <p className="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">Qué encontrarás</p>
+                  <p className="text-sm text-slate-700">{program.what_you_find}</p>
+                </div>
+              )}
+              {program.target_audience && (
+                <div>
+                  <p className="text-[11px] font-black uppercase tracking-widest text-slate-400 mb-1">Para quién</p>
+                  <p className="text-sm text-slate-700">{program.target_audience}</p>
+                </div>
+              )}
+              <div className="flex items-center gap-3 text-xs text-slate-500 font-semibold pt-1">
+                <span>{program.weeks_count} semanas</span>
+                <span>·</span>
+                <span>{programDays.length} sesiones</span>
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
       <div className="glass rounded-3xl p-5 md:p-6 shadow-card">
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-black text-sea-900 flex items-center gap-2">
@@ -1113,6 +1173,14 @@ export function TrainingWorkspaceView({ clientId, onBack, embedded = false }: Tr
             </div>
           )}
 
+          {selectedDay.description && (
+            <div className="bg-indigo-50 border border-indigo-100 rounded-2xl px-4 py-3">
+              <p className="text-[11px] font-black uppercase tracking-widest text-indigo-400 mb-1">Sesión de hoy</p>
+              {selectedDay.title && <p className="text-sm font-bold text-indigo-900 mb-0.5">{selectedDay.title}</p>}
+              <p className="text-sm text-indigo-800 leading-relaxed">{selectedDay.description}</p>
+            </div>
+          )}
+
           {(selectedDay.activities || []).map((activity: ProgramActivity) => {
             if (activity.type === 'workout' && activity.workout) {
               const activityHasActiveStep = !!activeStep && activity.workout.blocks.some((block) =>
@@ -1126,6 +1194,13 @@ export function TrainingWorkspaceView({ clientId, onBack, embedded = false }: Tr
               return (
                 <div key={activity.id} className="bg-white rounded-2xl border border-slate-200 p-4 space-y-3">
                   <h3 className="font-bold text-slate-800">{activity.title || activity.workout.name}</h3>
+
+                  {activity.workout.instructions && (
+                    <div className="bg-amber-50 border border-amber-100 rounded-xl px-3 py-2.5">
+                      <p className="text-[10px] font-black uppercase tracking-widest text-amber-500 mb-1">Instrucciones del coach</p>
+                      <p className="text-sm text-amber-900 leading-relaxed">{activity.workout.instructions}</p>
+                    </div>
+                  )}
 
                   {activity.workout.blocks.map(block => {
                     const structureType = (block as any).structure_type || 'lineal';
