@@ -1,5 +1,5 @@
 import { supabase } from './supabaseClient';
-import { Lead, LeadStatus, Client, ClientStatus } from '../types';
+import { Lead, LeadStatus } from '../types';
 
 type PublicLeadPayload = {
     firstName: string;
@@ -117,38 +117,35 @@ export const leadsService = {
      * 2. (Optional) Deletes Lead or marks as Archived
      */
     async convertLeadToClient(lead: Lead, assignedCoachId: string): Promise<string> {
-        // 1. Prepare Client Data
-        // NOTE: This assumes default values for a new client
-        const newClient: Partial<Client> = {
-            firstName: lead.firstName,
-            surname: lead.surname,
-            email: lead.email || '',
-            phone: lead.phone || '',
-            instagram: lead.instagram_user || '',
-            coach_id: assignedCoachId,
-            status: ClientStatus.ACTIVE,
-            registration_date: new Date().toISOString().split('T')[0],
-            start_date: new Date().toISOString().split('T')[0],
+        // 1. Prepare Client Data using REAL DB column names (clientes_pt_notion table)
+        const today = new Date().toISOString().split('T')[0];
 
-            // Default placeholder values for required fields
-            program: {
-                phase: 'F1',
-                programType: 'Trimestral', // Default, should be editable
-                start_date: new Date().toISOString().split('T')[0]
-            } as any,
-            medical: {} as any,
-            nutrition: {
-                nutrition_approved: false
-            } as any,
-            training: {} as any,
-            goals: {} as any
+        const newClientRow: Record<string, any> = {
+            // Personal info (DB column names)
+            property_nombre: lead.firstName || '',
+            property_apellidos: lead.surname || '',
+            property_correo_electr_nico: lead.email || '',
+            property_tel_fono: lead.phone || '',
+
+            // Instagram (if available)
+            ...(lead.instagram_user ? { property_instagram: lead.instagram_user } : {}),
+
+            // Status & dates
+            property_estado_cliente: 'Activo',
+            property_fecha_alta: today,
+            property_inicio_programa: today,
+
+            // Coach assignment
+            coach_id: assignedCoachId || null,
+
+            // Default phase
+            property_fase: 'Fase 1',
         };
 
-        // 2. Insert into 'clients' table
-        // (Assuming the RPC logic or direct insert. Using insert here)
+        // 2. Insert into the REAL table: 'clientes_pt_notion'
         const { data: clientData, error: clientError } = await supabase
-            .from('clients') // or 'clientes_pt_notion' if that's the real table name, mapping via RPC is safer usually but here we assume direct access
-            .insert([newClient])
+            .from('clientes_pt_notion')
+            .insert([newClientRow])
             .select('id')
             .single();
 
