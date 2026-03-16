@@ -85,7 +85,7 @@ const LeadDetailModal: React.FC<LeadDetailModalProps> = ({ lead, currentUser, is
         if (!window.confirm('¿Convertir este Lead en CLIENTE? Se creará una ficha de cliente vacía con estos datos.')) return;
         setIsConverting(true);
         try {
-            await leadsService.convertLeadToClient(formData as Lead, '');
+            await leadsService.convertLeadToClient(formData as Lead, currentUser.id, currentUser.name);
             toast.success('¡Cliente Creado! Lead marcado como WON.');
             onSave();
             onClose();

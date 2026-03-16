@@ -691,6 +691,8 @@ export const mapRowToClient = (row: any): Client => {
       trainingLocation: parseText(getVal(row, ['property_lugar_entreno', 'lugar_entrenamiento'])),
       availability: parseText(getVal(row, ['property_horario_disponibilidad', 'horario_disponibilidad'])),
       sensations_report: parseText(getVal(row, ['property_reporte_sensaciones_entreno'])),
+      assigned_program_id: parseText(getVal(row, ['assigned_program_id', 'id_programa_asignado'])),
+      assigned_custom_program: getVal(row, ['assigned_custom_program', 'programa_personalizado_asignado']) || undefined,
     },
 
     goals: {
@@ -982,6 +984,8 @@ const mapClientToRow = (client: Partial<Client>): any => {
     if (client.training.trainingLocation) row['property_lugar_entreno'] = client.training.trainingLocation;
     if (client.training.availability) row['property_horario_disponibilidad'] = client.training.availability;
     if (client.training.sensations_report) row['property_reporte_sensaciones_entreno'] = client.training.sensations_report;
+    if (client.training.assigned_program_id !== undefined) row['assigned_program_id'] = client.training.assigned_program_id;
+    if (client.training.assigned_custom_program !== undefined) row['assigned_custom_program'] = client.training.assigned_custom_program;
   }
 
   // Goals

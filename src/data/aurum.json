@@ -1,0 +1,3750 @@
+{
+  "info": {
+    "title": "Aurum",
+    "introduction": "",
+    "methodology": [],
+    "blockDefinitions": {}
+  },
+  "sessions": {
+    "sesion1": {
+      "id": "sesion1",
+      "title": "Sesion 1",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "abrazos al sol",
+                  "ex_id": 5349,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 4,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "abrazos al sol",
+                  "ex_id": 5349,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/TSyB1ItSWnc"
+                },
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 4,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "abrazos al sol",
+                  "ex_id": 5349,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/TSyB1ItSWnc"
+                },
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 4,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 4,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 4,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 4,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion2": {
+      "id": "sesion2",
+      "title": "Sesion 2",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "1) Completa 5 vueltas del ejercicio indicado. No hay pausas programadas entre vueltas pero puedes descansar si lo necesitas. \r\n\r\n2) Descansa 60 segundos antes de pasar al siguiente bloque. \r\n\r\n3) Realiza 3 Sets de superseries de los ejercicios descritos. Cada superserie consiste en completar 3 vueltas de los ejercicios indicados con 60 segundos de descanso entre vueltas.",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "super_series",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 4,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 4,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion3": {
+      "id": "sesion3",
+      "title": "Sesion 3",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "sentadilla",
+                  "ex_id": 5242,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/snDiZo0Zcko"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "sentadilla",
+                  "ex_id": 5242,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/snDiZo0Zcko"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "sentadilla",
+                  "ex_id": 5242,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/snDiZo0Zcko"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "sentadilla",
+                  "ex_id": 5242,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/snDiZo0Zcko"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "sentadilla",
+                  "ex_id": 5242,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/snDiZo0Zcko"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "to_the_one",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Abdominales con extensión",
+                  "ex_id": 5226,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtu.be/cmuH7ft-x_Y"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Abdominales con extensión",
+                  "ex_id": 5226,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/cmuH7ft-x_Y"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Abdominales con extensión",
+                  "ex_id": 5226,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtu.be/cmuH7ft-x_Y"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Abdominales con extensión",
+                  "ex_id": 5226,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtu.be/cmuH7ft-x_Y"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "Abdominales con extensión",
+                  "ex_id": 5226,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtu.be/cmuH7ft-x_Y"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "Abdominales con extensión",
+                  "ex_id": 5226,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtu.be/cmuH7ft-x_Y"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion4": {
+      "id": "sesion4",
+      "title": "Sesion 4",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Flexión inclinada",
+                  "ex_id": 5289,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/SWE_b1z7jKU"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Flexión inclinada",
+                  "ex_id": 5289,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/SWE_b1z7jKU"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Flexión inclinada",
+                  "ex_id": 5289,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/SWE_b1z7jKU"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Flexión inclinada",
+                  "ex_id": 5289,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/SWE_b1z7jKU"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "Flexión inclinada",
+                  "ex_id": 5289,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/SWE_b1z7jKU"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "Escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "Transición de rodillas seiza",
+                  "ex_id": 5922,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qlHJ9DpO5i4"
+                },
+                {
+                  "name": "tigre",
+                  "ex_id": 5786,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qWjiXI5cr5I"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "Escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "Transición de rodillas seiza",
+                  "ex_id": 5922,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qlHJ9DpO5i4"
+                },
+                {
+                  "name": "tigre",
+                  "ex_id": 5786,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qWjiXI5cr5I"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "Escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "Transición de rodillas seiza",
+                  "ex_id": 5922,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qlHJ9DpO5i4"
+                },
+                {
+                  "name": "tigre",
+                  "ex_id": 5786,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qWjiXI5cr5I"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Escalador con rotación (derecha)",
+                  "ex_id": 5980,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/2G1RhcXqGMU"
+                },
+                {
+                  "name": "Escalador con rotación (izquierda)",
+                  "ex_id": 5425,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/aapJco2jeFw"
+                },
+                {
+                  "name": "Transición de rodillas seiza",
+                  "ex_id": 5922,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qlHJ9DpO5i4"
+                },
+                {
+                  "name": "tigre",
+                  "ex_id": 5786,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/qWjiXI5cr5I"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion5": {
+      "id": "sesion5",
+      "title": "Sesion 5",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "to_the_one",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "exercises": [
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 9,
+              "exercises": [
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion6": {
+      "id": "sesion6",
+      "title": "Sesion 6",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Caminata del grangero (derecha)",
+                  "ex_id": 5431,
+                  "order": 1,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AngxLdwhg3A"
+                },
+                {
+                  "name": "Caminata del grangero (izquierda)",
+                  "ex_id": 5432,
+                  "order": 2,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/_HK2iLC_LVk"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Caminata del grangero (derecha)",
+                  "ex_id": 5431,
+                  "order": 1,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AngxLdwhg3A"
+                },
+                {
+                  "name": "Caminata del grangero (izquierda)",
+                  "ex_id": 5432,
+                  "order": 2,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/_HK2iLC_LVk"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Caminata del grangero (derecha)",
+                  "ex_id": 5431,
+                  "order": 1,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AngxLdwhg3A"
+                },
+                {
+                  "name": "Caminata del grangero (izquierda)",
+                  "ex_id": 5432,
+                  "order": 2,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/_HK2iLC_LVk"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Caminata del grangero (derecha)",
+                  "ex_id": 5431,
+                  "order": 1,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AngxLdwhg3A"
+                },
+                {
+                  "name": "Caminata del grangero (izquierda)",
+                  "ex_id": 5432,
+                  "order": 2,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/_HK2iLC_LVk"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "tigre mckenzie",
+                  "ex_id": 5787,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/AygDPfZcY5E"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                },
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "abdominales con giro",
+                  "ex_id": 5227,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/UB6NB1CM2SY"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "tigre mckenzie",
+                  "ex_id": 5787,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/AygDPfZcY5E"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                },
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "abdominales con giro",
+                  "ex_id": 5227,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/UB6NB1CM2SY"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "tigre mckenzie",
+                  "ex_id": 5787,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/AygDPfZcY5E"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                },
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "abdominales con giro",
+                  "ex_id": 5227,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/UB6NB1CM2SY"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "tigre mckenzie",
+                  "ex_id": 5787,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/AygDPfZcY5E"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                },
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "abdominales con giro",
+                  "ex_id": 5227,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/UB6NB1CM2SY"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion7": {
+      "id": "sesion7",
+      "title": "Sesion 7",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "tabata",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "buceador",
+                  "ex_id": 5758,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/fJWXIRs7t_M"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 7,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "buceador",
+                  "ex_id": 5758,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/fJWXIRs7t_M"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 7,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "el puente",
+                  "ex_id": 5291,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/KuEVq3OA2ss"
+                },
+                {
+                  "name": "buceador",
+                  "ex_id": 5758,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/fJWXIRs7t_M"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion8": {
+      "id": "sesion8",
+      "title": "Sesion 8",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "plancha pivot",
+                  "ex_id": 5217,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/fYwsWQo2Qzg"
+                },
+                {
+                  "name": "rodillas cuclillas",
+                  "ex_id": 5340,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/2bdI7RazQGw"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "plancha pivot",
+                  "ex_id": 5217,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/fYwsWQo2Qzg"
+                },
+                {
+                  "name": "rodillas cuclillas",
+                  "ex_id": 5340,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/2bdI7RazQGw"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "plancha pivot",
+                  "ex_id": 5217,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/fYwsWQo2Qzg"
+                },
+                {
+                  "name": "rodillas cuclillas",
+                  "ex_id": 5340,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/2bdI7RazQGw"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 5,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "plancha pivot",
+                  "ex_id": 5217,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtu.be/fYwsWQo2Qzg"
+                },
+                {
+                  "name": "rodillas cuclillas",
+                  "ex_id": 5340,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/2bdI7RazQGw"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion9": {
+      "id": "sesion9",
+      "title": "Sesion 9",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "Hip thrust libre",
+                  "ex_id": 5995,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/WH6uLK3xEXQ"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "super_series",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "abrazos al sol",
+                  "ex_id": 5349,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/TSyB1ItSWnc"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "abrazos al sol",
+                  "ex_id": 5349,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/TSyB1ItSWnc"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "abrazos al sol",
+                  "ex_id": 5349,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/TSyB1ItSWnc"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "super_series",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "crol",
+                  "ex_id": 5357,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/x_P6Sj6yuCs"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "crol",
+                  "ex_id": 5357,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/x_P6Sj6yuCs"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "crol",
+                  "ex_id": 5357,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/x_P6Sj6yuCs"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 1,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "type": "super_series",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "espalda",
+                  "ex_id": 5362,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/QxbmJeNkCMI"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "espalda",
+                  "ex_id": 5362,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/QxbmJeNkCMI"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "espalda",
+                  "ex_id": 5362,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 20,
+                  "video": "https://youtube.com/shorts/QxbmJeNkCMI"
+                },
+                {
+                  "name": "roll a dos",
+                  "ex_id": 5342,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/efc9FN8EV0s"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion10": {
+      "id": "sesion10",
+      "title": "Sesion 10",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "interval_repetitions",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Caballero adelante (derecha)",
+                  "ex_id": 5813,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/d2wis5SrZGk"
+                },
+                {
+                  "name": "Caballero adelante (izquierda)",
+                  "ex_id": 5814,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/iQlh-N8UKho"
+                },
+                {
+                  "name": "Descanso",
+                  "ex_id": 5968,
+                  "order": 3,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "tabata",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "paleo_run",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 2,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 4,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "tigre mckenzie",
+                  "ex_id": 5787,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/AygDPfZcY5E"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 6,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "levantar las piernas",
+                  "ex_id": 5228,
+                  "order": 7,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/_-qXAdMECAw"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 8,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 2,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 10,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 4,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "tigre mckenzie",
+                  "ex_id": 5787,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/AygDPfZcY5E"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 6,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                },
+                {
+                  "name": "levantar las piernas",
+                  "ex_id": 5228,
+                  "order": 7,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/_-qXAdMECAw"
+                },
+                {
+                  "name": "skipping rodillas codos",
+                  "ex_id": 5333,
+                  "order": 8,
+                  "time": 30,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/xgYuOJMjmyI"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion11": {
+      "id": "sesion11",
+      "title": "Sesion 11",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "tabata",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "exercises": [
+                {
+                  "name": "caminata del granjero",
+                  "ex_id": 5895,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/W-_hjvjg8t8"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "type": "tabata",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (derecha)",
+                  "ex_id": 5898,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/PubtDBzleBE"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (izquierda)",
+                  "ex_id": 5899,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/x-7rczZN8N0"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (derecha)",
+                  "ex_id": 5898,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/PubtDBzleBE"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (izquierda)",
+                  "ex_id": 5899,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/x-7rczZN8N0"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (derecha)",
+                  "ex_id": 5898,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/PubtDBzleBE"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (izquierda)",
+                  "ex_id": 5899,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/x-7rczZN8N0"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (derecha)",
+                  "ex_id": 5898,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/PubtDBzleBE"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "exercises": [
+                {
+                  "name": "Plancha lateral con rodilla (izquierda)",
+                  "ex_id": 5899,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/x-7rczZN8N0"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 60,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "type": "tabata",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                },
+                {
+                  "name": "descanso",
+                  "ex_id": 5968,
+                  "order": 2,
+                  "time": 10,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/1DEFAAyxo6Q"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "exercises": [
+                {
+                  "name": "el puente isometrico",
+                  "ex_id": 5993,
+                  "order": 1,
+                  "time": 20,
+                  "reps": 0,
+                  "video": "https://youtube.com/shorts/AB9zMdPYmOQ"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "sesion12": {
+      "id": "sesion12",
+      "title": "Sesion 12",
+      "blocks": [
+        {
+          "id": 1,
+          "type": "to_the_one",
+          "description": "",
+          "sets": [
+            {
+              "id": 1,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 8,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 2,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 7,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 3,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 6,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 4,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 5,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 5,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 4,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 3,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 7,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 2,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            },
+            {
+              "id": 8,
+              "exercises": [
+                {
+                  "name": "semi burpee",
+                  "ex_id": 5279,
+                  "order": 1,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtu.be/tnX3DxQ9xHU"
+                },
+                {
+                  "name": "sentada paleo",
+                  "ex_id": 5345,
+                  "order": 2,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtube.com/shorts/tQDKDwDCxl4"
+                },
+                {
+                  "name": "mckenzie",
+                  "ex_id": 5222,
+                  "order": 3,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtu.be/qjEFCfbCswU"
+                },
+                {
+                  "name": "flexión con rodillas",
+                  "ex_id": 5264,
+                  "order": 4,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtu.be/jF0UJfweKz4"
+                },
+                {
+                  "name": "zancada pivot (derecha)",
+                  "ex_id": 5402,
+                  "order": 5,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtube.com/shorts/2OiPDhUE6CE"
+                },
+                {
+                  "name": "zancada pivot (izquierda)",
+                  "ex_id": 5403,
+                  "order": 6,
+                  "time": 0,
+                  "reps": 1,
+                  "video": "https://youtube.com/shorts/KPqfLiQ7J9w"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

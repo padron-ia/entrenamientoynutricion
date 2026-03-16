@@ -116,7 +116,7 @@ export const leadsService = {
      * 1. Creates Client record
      * 2. (Optional) Deletes Lead or marks as Archived
      */
-    async convertLeadToClient(lead: Lead, assignedCoachId: string): Promise<string> {
+    async convertLeadToClient(lead: Lead, assignedCoachId: string, coachName?: string): Promise<string> {
         // 1. Prepare Client Data using REAL DB column names (clientes_pt_notion table)
         const today = new Date().toISOString().split('T')[0];
 
@@ -137,6 +137,7 @@ export const leadsService = {
 
             // Coach assignment
             coach_id: assignedCoachId || null,
+            ...(coachName ? { property_coach: coachName } : {}),
 
             // Default phase
             property_fase: 'Fase 1',

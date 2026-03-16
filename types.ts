@@ -134,6 +134,8 @@ export interface TrainingData {
   injuries?: string;
   notes?: string;
   availability?: string; // horario_disponibilidad
+  assigned_program_id?: string; // ID del programa predefinido (aurum, calisthenics, etc)
+  assigned_custom_program?: any; // Objeto JSON con el programa a medida
   sensations_report?: string; // property_reporte_sensaciones_entreno
 }
 
