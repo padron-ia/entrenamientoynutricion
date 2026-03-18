@@ -1370,3 +1370,140 @@ export interface ClientStrengthRecord {
   validated_at?: string;
   created_at?: string;
 }
+
+// ============================================================================
+// MODULO PRESENCIAL - "La Muralla Fit Boutique"
+// ============================================================================
+
+export interface GymServiceType {
+  id: string;
+  name: string;
+  description?: string;
+  color: string;
+  icon: string;
+  is_bookable_by_client: boolean;
+  is_active: boolean;
+  created_at: string;
+  updated_at: string;
+}
+
+export interface GymBono {
+  id: string;
+  name: string;
+  description?: string;
+  sessions_count: number;
+  price: number;
+  currency: string;
+  stripe_payment_link?: string;
+  stripe_price_id?: string;
+  paypal_payment_link?: string;
+  paypal_plan_id?: string;
+  compatible_service_type_ids: string[];
+  is_active: boolean;
+  sort_order: number;
+  created_at: string;
+  updated_at: string;
+  compatible_services?: GymServiceType[];
+}
+
+export type GymMemberType = 'presencial_grupo' | 'presencial_personal' | 'presencial_nutricion' | 'online' | 'mixto';
+export type GymMemberStatus = 'active' | 'inactive' | 'paused';
+
+export interface GymMember {
+  id: string;
+  user_id?: string;
+  client_id?: string;
+  first_name: string;
+  last_name: string;
+  email: string;
+  phone?: string;
+  dni?: string;
+  member_type: GymMemberType;
+  status: GymMemberStatus;
+  photo_url?: string;
+  birth_date?: string;
+  emergency_contact?: string;
+  emergency_phone?: string;
+  medical_notes?: string;
+  created_at: string;
+  updated_at: string;
+  full_name?: string;
+  active_credits?: GymMemberCredit[];
+  total_remaining_sessions?: number;
+}
+
+export interface GymMemberCredit {
+  id: string;
+  member_id: string;
+  bono_id: string;
+  total_sessions: number;
+  used_sessions: number;
+  remaining_sessions: number;
+  valid_from: string;
+  valid_until: string;
+  payment_provider?: 'stripe' | 'paypal' | 'manual' | 'cash';
+  payment_reference?: string;
+  payment_status: 'pending' | 'completed' | 'failed' | 'refunded';
+  amount_paid?: number;
+  is_expired: boolean;
+  created_at: string;
+  updated_at: string;
+  bono_name?: string;
+}
+
+export interface GymClassSlot {
+  id: string;
+  service_type_id: string;
+  date: string;
+  start_time: string;
+  end_time: string;
+  title?: string;
+  coach_id?: string;
+  capacity: number;
+  is_cancelled: boolean;
+  cancellation_reason?: string;
+  notes?: string;
+  created_at: string;
+  updated_at: string;
+  service_type?: GymServiceType;
+  coach_name?: string;
+  current_bookings?: number;
+  is_full?: boolean;
+  user_reservation_status?: 'confirmed' | 'waitlisted' | null;
+  user_reservation_id?: string;
+}
+
+export type GymReservationStatus = 'confirmed' | 'cancelled' | 'attended' | 'no_show' | 'waitlisted';
+
+export interface GymReservation {
+  id: string;
+  member_id: string;
+  class_slot_id: string;
+  credit_id?: string;
+  status: GymReservationStatus;
+  cancelled_at?: string;
+  cancellation_type?: 'client' | 'admin' | 'system';
+  credit_returned: boolean;
+  waitlist_position: number;
+  auto_booked_at?: string;
+  booked_by?: string;
+  created_at: string;
+  updated_at: string;
+  class_slot?: GymClassSlot;
+  member_name?: string;
+}
+
+export interface GymBonoPurchase {
+  id: string;
+  member_id: string;
+  bono_id: string;
+  credit_id?: string;
+  amount: number;
+  currency: string;
+  payment_provider?: string;
+  payment_reference?: string;
+  payment_status: string;
+  purchased_at: string;
+  bono_name?: string;
+  bono_sessions?: number;
+}

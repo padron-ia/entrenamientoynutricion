@@ -493,6 +493,21 @@ const Layout: React.FC<LayoutProps> = ({ children, user, onLogout, activeView, o
                 )}
               </MenuSection>
 
+              {/* CENTRO PRESENCIAL */}
+              <MenuSection
+                title="Centro Presencial"
+                icon={Building2}
+                isOpen={expandedSections.includes('gym')}
+                onToggle={() => toggleSection('gym')}
+                show={isAdmin || isHeadCoach}
+              >
+                <NavItem view="gym-admin" icon={LayoutDashboard} label="Panel Gimnasio" />
+                <NavItem view="gym-schedule" icon={CalendarClock} label="Horario Semanal" />
+                <NavItem view="gym-bonos" icon={CreditCard} label="Bonos" />
+                <NavItem view="gym-members" icon={Users} label="Miembros" />
+                <NavItem view="gym-service-types" icon={Settings} label="Tipos de Servicio" />
+              </MenuSection>
+
               {/* 4. ANÁLISIS */}
               <MenuSection
                 title="Análisis & Rendimiento"
@@ -769,6 +784,21 @@ const Layout: React.FC<LayoutProps> = ({ children, user, onLogout, activeView, o
                 {(checkPermission(user, PERMISSIONS.MANAGE_SETTINGS) && !isRRSS) && (
                   <NavItem view="assessment-manager" icon={Settings} label="Config. Valoración" />
                 )}
+              </MenuSection>
+
+              {/* CENTRO PRESENCIAL */}
+              <MenuSection
+                title="Centro Presencial"
+                icon={Building2}
+                isOpen={expandedSections.includes('gym')}
+                onToggle={() => toggleSection('gym')}
+                show={isAdmin || isHeadCoach}
+              >
+                <NavItem view="gym-admin" icon={LayoutDashboard} label="Panel Gimnasio" />
+                <NavItem view="gym-schedule" icon={CalendarClock} label="Horario Semanal" />
+                <NavItem view="gym-bonos" icon={CreditCard} label="Bonos" />
+                <NavItem view="gym-members" icon={Users} label="Miembros" />
+                <NavItem view="gym-service-types" icon={Settings} label="Tipos de Servicio" />
               </MenuSection>
 
               {/* 4. ANÁLISIS */}

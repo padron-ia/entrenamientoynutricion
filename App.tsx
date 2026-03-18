@@ -66,6 +66,11 @@ const NutritionHub = lazy(() => import('./components/NutritionHub').then(m => ({
 const TrainingManagement = lazy(() => import('./components/training/TrainingManagement').then(m => ({ default: m.TrainingManagement })));
 const RenewalCallsManager = lazy(() => import('./components/RenewalCallsManager'));
 const HeadCoachWeeklyDashboard = lazy(() => import('./components/HeadCoachWeeklyDashboard'));
+const GymAdminDashboard = lazy(() => import('./components/gym/GymAdminDashboard'));
+const GymScheduleManager = lazy(() => import('./components/gym/GymScheduleManager'));
+const GymBonosManager = lazy(() => import('./components/gym/GymBonosManager'));
+const GymMembersManager = lazy(() => import('./components/gym/GymMembersManager'));
+const GymServiceTypesManager = lazy(() => import('./components/gym/GymServiceTypesManager'));
 
 // Loading fallback component
 const LoadingFallback = () => (
@@ -84,7 +89,7 @@ const AppContent: React.FC = () => {
   const [clients, setClients] = useState<Client[]>([]);
   const [coaches, setCoaches] = useState<User[]>([]);
   const [paymentMethods, setPaymentMethods] = useState<{ id: string; name: string; platform_fee_percentage: number }[]>([]);
-  const [activeView, setActiveView] = useState<'dashboard' | 'clients' | 'renewals' | 'renewal-calls' | 'analytics' | 'analytics-webinars' | 'analytics-profile' | 'analytics-pt' | 'analytics-me' | 'profile' | 'settings' | 'client-portal' | 'classes' | 'reviews' | 'food-plans' | 'materials-library' | 'nutrition-management' | 'nutrition-hub' | 'training-management' | 'invoices' | 'testimonials' | 'payment-links' | 'team-directory' | 'staff-management' | 'medical-reviews' | 'new-sale' | 'closer-dashboard' | 'coach-capacity' | 'coach-performance' | 'setter-performance' | 'closer-performance' | 'accounting-dashboard' | 'team-announcements' | 'contracts' | 'support-tickets' | 'coach-tasks' | 'leads' | 'chat' | 'assessment-manager' | 'role-permissions' | 'slack-settings' | 'staff-metrics' | 'risk-alerts' | 'direccion-dashboard' | 'me-dashboard' | 'me-clients' | 'me-closer-performance' | 'me-setter-performance' | 'head-coach-weekly' | 'churn-retention'>('dashboard');
+  const [activeView, setActiveView] = useState<'dashboard' | 'clients' | 'renewals' | 'renewal-calls' | 'analytics' | 'analytics-webinars' | 'analytics-profile' | 'analytics-pt' | 'analytics-me' | 'profile' | 'settings' | 'client-portal' | 'classes' | 'reviews' | 'food-plans' | 'materials-library' | 'nutrition-management' | 'nutrition-hub' | 'training-management' | 'invoices' | 'testimonials' | 'payment-links' | 'team-directory' | 'staff-management' | 'medical-reviews' | 'new-sale' | 'closer-dashboard' | 'coach-capacity' | 'coach-performance' | 'setter-performance' | 'closer-performance' | 'accounting-dashboard' | 'team-announcements' | 'contracts' | 'support-tickets' | 'coach-tasks' | 'leads' | 'chat' | 'assessment-manager' | 'role-permissions' | 'slack-settings' | 'staff-metrics' | 'risk-alerts' | 'direccion-dashboard' | 'me-dashboard' | 'me-clients' | 'me-closer-performance' | 'me-setter-performance' | 'head-coach-weekly' | 'churn-retention' | 'gym-admin' | 'gym-schedule' | 'gym-bonos' | 'gym-members' | 'gym-service-types'>('dashboard');
   const [selectedClient, setSelectedClient] = useState<Client | null>(null);
   const [previousView, setPreviousView] = useState<string | null>(null);
   const [clientsFilter, setClientsFilter] = useState<string | null>(null);
@@ -436,7 +441,7 @@ const AppContent: React.FC = () => {
   };
 
   const handleNavigate = (view: string, filter?: string) => {
-    if (['dashboard', 'clients', 'renewals', 'renewal-calls', 'analytics', 'analytics-webinars', 'analytics-profile', 'analytics-pt', 'analytics-me', 'profile', 'settings', 'client-portal', 'classes', 'reviews', 'food-plans', 'materials-library', 'nutrition-management', 'nutrition-hub', 'training-management', 'invoices', 'testimonials', 'payment-links', 'team-directory', 'medical-reviews', 'new-sale', 'closer-dashboard', 'coach-capacity', 'coach-performance', 'setter-performance', 'closer-performance', 'accounting-dashboard', 'team-announcements', 'contracts', 'support-tickets', 'coach-tasks', 'leads', 'chat', 'assessment-manager', 'staff-management', 'role-permissions', 'slack-settings', 'staff-metrics', 'risk-alerts', 'coach-agenda', 'direccion-dashboard', 'me-dashboard', 'me-clients', 'me-closer-performance', 'me-setter-performance', 'endocrino-dashboard', 'endocrino-invoices', 'endocrino-initial-reports', 'create-medical-report', 'endocrino-medical-reports', 'head-coach-weekly', 'churn-retention'].includes(view)) {
+    if (['dashboard', 'clients', 'renewals', 'renewal-calls', 'analytics', 'analytics-webinars', 'analytics-profile', 'analytics-pt', 'analytics-me', 'profile', 'settings', 'client-portal', 'classes', 'reviews', 'food-plans', 'materials-library', 'nutrition-management', 'nutrition-hub', 'training-management', 'invoices', 'testimonials', 'payment-links', 'team-directory', 'medical-reviews', 'new-sale', 'closer-dashboard', 'coach-capacity', 'coach-performance', 'setter-performance', 'closer-performance', 'accounting-dashboard', 'team-announcements', 'contracts', 'support-tickets', 'coach-tasks', 'leads', 'chat', 'assessment-manager', 'staff-management', 'role-permissions', 'slack-settings', 'staff-metrics', 'risk-alerts', 'coach-agenda', 'direccion-dashboard', 'me-dashboard', 'me-clients', 'me-closer-performance', 'me-setter-performance', 'endocrino-dashboard', 'endocrino-invoices', 'endocrino-initial-reports', 'create-medical-report', 'endocrino-medical-reports', 'head-coach-weekly', 'churn-retention', 'gym-admin', 'gym-schedule', 'gym-bonos', 'gym-members', 'gym-service-types'].includes(view)) {
       setActiveView(view as any);
       // Si se navega a clients con filtro, establecerlo
       if (view === 'clients' && filter) {
@@ -711,6 +716,16 @@ const AppContent: React.FC = () => {
           <CRMMEDashboard /> // Placeholder - reuse dashboard for now
         ) : activeView === 'head-coach-weekly' ? (
           <HeadCoachWeeklyDashboard currentUser={user} coaches={coaches} clients={filteredClients} />
+        ) : activeView === 'gym-admin' ? (
+          <GymAdminDashboard currentUser={user} onNavigate={handleNavigate} />
+        ) : activeView === 'gym-schedule' ? (
+          <GymScheduleManager currentUser={user} />
+        ) : activeView === 'gym-bonos' ? (
+          <GymBonosManager />
+        ) : activeView === 'gym-members' ? (
+          <GymMembersManager currentUser={user} />
+        ) : activeView === 'gym-service-types' ? (
+          <GymServiceTypesManager />
         ) : activeView === 'dashboard' ? (
           (normalizeRole(user.role) === 'admin' || normalizeRole(user.role) === 'head_coach') ? (
             <ExecutiveDashboard

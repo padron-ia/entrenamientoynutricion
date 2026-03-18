@@ -1,5 +1,5 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from 'react';
-import { ChevronRight, FileHeart, BookOpen, X, ListChecks, Footprints, Droplets, Utensils, Video, PlayCircle } from 'lucide-react';
+import { ChevronRight, FileHeart, BookOpen, X, ListChecks, Footprints, Droplets, Utensils, Video, PlayCircle, Dumbbell } from 'lucide-react';
 import { Client } from '../../types';
 import { ClassesView } from './ClassesView';
 import { ReviewsView } from './ReviewsView';
@@ -48,6 +48,8 @@ import { MyWeekGrid } from './sections/MyWeekGrid';
 import { WeeklySummaryCard } from './sections/WeeklySummaryCard';
 import { CoachSeenStatus } from './sections/CoachSeenStatus';
 import { OptimizationSurveyOverlay } from './OptimizationSurveyOverlay';
+import GymPortal from './gym/GymPortal';
+import { useGymMember } from './hooks/useGymMember';
 import { supabase } from '../../services/supabaseClient';
 
 interface ClientPortalDashboardProps {
@@ -57,7 +59,7 @@ interface ClientPortalDashboardProps {
 }
 
 export function ClientPortalDashboard({ client, onRefresh, onStartAnamnesis }: ClientPortalDashboardProps) {
-    const [activeView, setActiveView] = useState<'dashboard' | 'classes' | 'reviews' | 'checkin' | 'nutrition' | 'medical' | 'materials' | 'contract' | 'reports' | 'cycle' | 'strength' | 'training' | 'chat'>('dashboard');
+    const [activeView, setActiveView] = useState<'dashboard' | 'classes' | 'reviews' | 'checkin' | 'nutrition' | 'medical' | 'materials' | 'contract' | 'reports' | 'cycle' | 'strength' | 'training' | 'chat' | 'gym'>('dashboard');
     const [portalTab, setPortalTab] = useState<PortalTab>('hoy');
     const [glucoseRefreshKey, setGlucoseRefreshKey] = useState(0);
     const [stepsRefreshKey, setStepsRefreshKey] = useState(0);
@@ -69,6 +71,15 @@ export function ClientPortalDashboard({ client, onRefresh, onStartAnamnesis }: C
     const unread = useUnreadCounts(client.id, activeView);
     const goalsEditor = useGoalsEditor(client, onRefresh);
     const portal = useClientPortalData(client, onRefresh);
+
+    // Gym member detection
+    const [authUserId, setAuthUserId] = useState<string>();
+    useEffect(() => {
+        supabase.auth.getSession().then(({ data }) => {
+            if (data.session?.user) setAuthUserId(data.session.user.id);
+        });
+    }, []);
+    const gymMember = useGymMember(authUserId);
 
     // Optimization survey state
     const [showOptimizationSurvey, setShowOptimizationSurvey] = useState(false);
@@ -398,6 +409,16 @@ export function ClientPortalDashboard({ client, onRefresh, onStartAnamnesis }: C
     if (activeView === 'cycle') return <CycleTrackingView client={client} onBack={() => setActiveView('dashboard')} onRefresh={onRefresh} />;
     if (activeView === 'strength' || activeView === 'training') return <TrainingHubView clientId={client.id} onBack={() => setActiveView('dashboard')} initialTab={activeView === 'strength' ? 'strength' : 'workspace'} />;
     if (activeView === 'chat') return <ClientChatView clientId={client.id} coachId={client.coach_id} coachName={portal.coachData?.name} coachPhoto={portal.coachData?.photo_url} clientName={`${client.firstName || ''} ${client.surname || ''}`.trim()} onBack={() => setActiveView('dashboard')} />;
+    if (activeView === 'gym' && authUserId) return (
+        <div className="min-h-screen bg-gray-50">
+            <div className="sticky top-0 bg-white border-b px-4 py-3 flex items-center gap-3 z-30">
+                <button onClick={() => setActiveView('dashboard')} className="text-gray-500 hover:text-gray-900 font-bold flex items-center gap-1">
+                    <ChevronRight className="w-5 h-5 rotate-180" /> Volver
+                </button>
+            </div>
+            <GymPortal userId={authUserId} userName={client.firstName || ''} />
+        </div>
+    );
 
     // --- MAIN DASHBOARD ---
     return (
@@ -601,6 +622,27 @@ export function ClientPortalDashboard({ client, onRefresh, onStartAnamnesis }: C
                 unreadMedicalReviewsCount={unread.unreadMedicalReviewsCount}
                 unreadCoachReviewsCount={unread.unreadCoachReviewsCount}
             />
+
+            {/* Gym member card — visible when user is also a presential member */}
+            {gymMember.member && !gymMember.isLoading && (
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4">
+                    <button
+                        onClick={() => setActiveView('gym')}
+                        className="w-full glass rounded-3xl p-4 shadow-card border border-blue-100/60 flex items-center justify-between gap-3 hover:border-blue-300 transition-colors"
+                    >
+                        <div className="flex items-center gap-3">
+                            <div className="p-2.5 bg-blue-100 rounded-xl">
+                                <Dumbbell className="w-5 h-5 text-blue-600" />
+                            </div>
+                            <div className="text-left">
+                                <p className="font-bold text-sea-900">Centro Presencial</p>
+                                <p className="text-xs text-sea-500">Reservas, horario y bonos</p>
+                            </div>
+                        </div>
+                        <ChevronRight className="w-5 h-5 text-sea-400" />
+                    </button>
+                </div>
+            )}
 
             <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 space-y-6">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8">
