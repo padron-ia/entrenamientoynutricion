@@ -13,7 +13,7 @@
 ## Base de Datos
 
 ### Supabase
-- **URL**: `https://ybmyxzkvjuhutqpgpjpt.supabase.co`
+- **URL**: `https://tfhmeoiryhuivdnpwpjs.supabase.co`
 - **Tabla principal de clientes**: `clientes_pt_notion` (heredada, puede renombrarse en el futuro)
 
 ### Campos Importantes

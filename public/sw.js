@@ -2,7 +2,7 @@
 // Estrategia: Network-first con cache fallback
 // Los assets estáticos se cachean; las peticiones API siempre van a red.
 
-const CACHE_NAME = 'ado-cache-v1';
+const CACHE_NAME = 'ado-cache-v2';
 
 // Archivos que se cachean en la instalación (shell de la app)
 const PRECACHE_URLS = [
